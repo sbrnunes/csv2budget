@@ -1,0 +1,52 @@
+
+
+
+#showroom.carousel.slide
+  %ol.carousel-indicators
+    %li{:data =>{'slide-to' => "0", 'target' => '#showroom'}, :class => 'active'}
+    %li{:data =>{'slide-to' => "1", 'target' => '#showroom'}}
+    %li{:data =>{'slide-to' => "2", 'target' => '#showroom'}}
+  .container
+    .carousel-inner
+      %div{:class => "item active"}
+        .html-slide
+          = ''
+          .carousel-caption
+            != 'Carousel item #1'
+      %div{:class => "item"}
+        .html-slide
+          = ''
+          .carousel-caption
+            != 'Carousel item #2'
+      %div{:class => "item"}
+        .html-slide
+          = ''
+          .carousel-caption
+            != 'Carousel item #3'
+
+    %a.left.carousel-control{'data-slide' => 'prev', :href => '#showroom'}
+      %span.icon-prev
+    %a.right.carousel-control{'data-slide' => 'next', :href => '#showroom'}
+      %span.icon-next
+
+.container
+  .row.upload-box
+    .col-md-offset-1.col-md-10
+      = form_tag '/upload_file', :method => 'post', :multipart => true do
+        .input-group
+          = file_field_tag 'csv_file', :class => 'form-control', :accept => 'text/csv'
+          %span.input-group-btn
+            = button_tag :type => 'submit', :class => 'btn btn-primary' do
+              %i.glyphicon.glyphicon-search
+              Upload bank statements
+
+  .row.features
+    .col-md-4
+      .panel.panel-primary{:data => {:id => 'upload'}}
+        .panel-heading
+          %h3.panel-title
+            = 'Upload your bank statements'
+        .panel-body
+          %img{src: '#'}
+          .detail
+            = 'Upload your bank statements and see you monthly budget getting updated automatically'
