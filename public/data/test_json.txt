@@ -1,26 +1,912 @@
 [
-   {
-     "header_1": 1,
-     "header_2": "test",
-     "header_3": "test",
-     "header_4": "test",
-     "header_5": "test",
-     "header_6": "test"
-   },
-   {
-     "header_1": 2,
-     "header_2": "test",
-     "header_3": "test",
-     "header_4": "test",
-     "header_5": "test",
-     "header_6": "test"
-   },
-   {
-     "header_1": 3,
-     "header_2": "test",
-     "header_3": "test",
-     "header_4": "test",
-     "header_5": "test",
-     "header_6": "test"
-   }
- ]
+  {
+    "date": "2014-02-04",
+    "details": "VDA-ULSTER BANK",
+    "debit": "20,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-04",
+    "details": "VDP-KC PEACHES",
+    "debit": "15,60 ",
+    "credit": null,
+    "balance": "6429,95 "
+  },
+  {
+    "date": "2014-02-05",
+    "details": "VDA-ULSTER BANK",
+    "debit": "20,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-05",
+    "details": "VDP-CLYNE BROS",
+    "debit": "12,84 ",
+    "credit": null,
+    "balance": "6397,11 "
+  },
+  {
+    "date": "2014-02-06",
+    "details": "VDP-CORIBIOL",
+    "debit": "15,31 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-06",
+    "details": "VDP-ODEON",
+    "debit": "16,50 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-06",
+    "details": "VDP-ROUND TOWER SE",
+    "debit": "15,12 ",
+    "credit": null,
+    "balance": "6350,18 "
+  },
+  {
+    "date": "2014-02-07",
+    "details": "VDA-ULSTER BANK",
+    "debit": "20,00 ",
+    "credit": null,
+    "balance": "6330,18 "
+  },
+  {
+    "date": "2014-02-10",
+    "details": "VDA-ULSTER BANK",
+    "debit": "20,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-10",
+    "details": "VDA-ULSTER BANK",
+    "debit": "40,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-10",
+    "details": "VDP-BESHOFFS THE M",
+    "debit": "54,10 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-10",
+    "details": "VDP-DORANS ON THE",
+    "debit": "20,80 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-10",
+    "details": "VDP-DUNNES ST. STE",
+    "debit": "23,82 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-10",
+    "details": "VDP-EUROSPAR BARRO",
+    "debit": "30,39 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-10",
+    "details": "VDP-IRISH RAIL",
+    "debit": "5,75 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-10",
+    "details": "VDP-PAYZONE",
+    "debit": "20,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-10",
+    "details": "VDP-WRIGHTS OF HOW",
+    "debit": "54,56 ",
+    "credit": null,
+    "balance": "6060,76 "
+  },
+  {
+    "date": "2014-02-11",
+    "details": "VDP-PENNEYS MARY S",
+    "debit": "9,50 ",
+    "credit": null,
+    "balance": "6051,26 "
+  },
+  {
+    "date": "2014-02-12",
+    "details": "VDA-ULSTER BANK",
+    "debit": "20,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-12",
+    "details": "VDP-EUROSPAR BARRO",
+    "debit": "11,64 ",
+    "credit": null,
+    "balance": "6019,62 "
+  },
+  {
+    "date": "2014-02-13",
+    "details": "GTSDSCT140430FJ3",
+    "debit": null,
+    "credit": "94,68 ",
+    "balance": null
+  },
+  {
+    "date": "2014-02-13",
+    "details": "GTSDSCT140430KY8",
+    "debit": null,
+    "credit": "80,73 ",
+    "balance": null
+  },
+  {
+    "date": "2014-02-13",
+    "details": "ATM GRAFTON ST D",
+    "debit": "20,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-13",
+    "details": "VDP-PAYPAL *SPOTIF",
+    "debit": "4,99 ",
+    "credit": null,
+    "balance": "6170,04 "
+  },
+  {
+    "date": "2014-02-14",
+    "details": "VDP-ADVANCE PITSTO",
+    "debit": "179,94 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-14",
+    "details": "VDP-INSOMNIA COFFE",
+    "debit": "3,75 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-14",
+    "details": "VDP-IRISH RAIL",
+    "debit": "10,00 ",
+    "credit": null,
+    "balance": "5976,35 "
+  },
+  {
+    "date": "2014-02-17",
+    "details": "ATM ATHLONE",
+    "debit": "20,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-17",
+    "details": "VDA-ULSTER BANK",
+    "debit": "20,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-17",
+    "details": "VDA-ULSTER BANK",
+    "debit": "100,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-17",
+    "details": "VDP-APPLEGREEN MOT",
+    "debit": "30,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-17",
+    "details": "VDP-CASTLECOURT HO",
+    "debit": "26,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-17",
+    "details": "VDP-DUNNES WESTPOR",
+    "debit": "32,99 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-17",
+    "details": "VDP-PAYZONE",
+    "debit": "20,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-17",
+    "details": "VDP-THE TAVERN",
+    "debit": "57,95 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-17",
+    "details": "GTSSDDM140380RXK",
+    "debit": "58,99 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-17",
+    "details": "GTSSDDM140380TMV",
+    "debit": "45,16 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-17",
+    "details": "OP/eFlow Payment",
+    "debit": "44,83 ",
+    "credit": null,
+    "balance": "5520,43 "
+  },
+  {
+    "date": "2014-02-18",
+    "details": "VDA-ULSTER BANK",
+    "debit": "20,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-18",
+    "details": "VDP-TESCO STORE 35",
+    "debit": "49,90 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-18",
+    "details": "*INET ENGLISH",
+    "debit": "70,00 ",
+    "credit": null,
+    "balance": "5380,53 "
+  },
+  {
+    "date": "2014-02-19",
+    "details": "ATM S/V FRANFIELD",
+    "debit": "20,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-19",
+    "details": "VDP-AUSSIE BBQ",
+    "debit": "10,40 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-19",
+    "details": "VDP-EUROSPAR BARRO",
+    "debit": "5,83 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-19",
+    "details": "VDP-HIBERNIAN HOTE",
+    "debit": "23,95 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-19",
+    "details": "GTSSDDM1404305MF",
+    "debit": "5,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-20",
+    "details": "VDP-DALYS SERVICE",
+    "debit": "26,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-20",
+    "details": "VDP-EUROSPAR BARRO",
+    "debit": "10,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-20",
+    "details": "VDP-LISTONS",
+    "debit": "6,60 ",
+    "credit": null,
+    "balance": "5272,75 "
+  },
+  {
+    "date": "2014-02-21",
+    "details": "VDA-ULSTER BANK",
+    "debit": "20,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-21",
+    "details": "VDP-DUNNES CORNELS",
+    "debit": "76,98 ",
+    "credit": null,
+    "balance": "5175,77 "
+  },
+  {
+    "date": "2014-02-21",
+    "details": "GTSSDDP140430SJV",
+    "debit": "52,51 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-24",
+    "details": "VDP-BOYERS & COMPA",
+    "debit": "8,95 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-24",
+    "details": "VDP-FARMER BROWNS",
+    "debit": "40,70 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-24",
+    "details": "VDP-IKEA IRELAND",
+    "debit": "49,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-24",
+    "details": "VDP-JOHNNIE FOXS",
+    "debit": "46,70 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-24",
+    "details": "VDP-JUNIORS DELI &",
+    "debit": "50,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-24",
+    "details": "VDP-MAXOL SERVICE",
+    "debit": "25,01 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-24",
+    "details": "VDP-OLIVE GREEN",
+    "debit": "84,75 ",
+    "credit": null,
+    "balance": "4818,15 "
+  },
+  {
+    "date": "2014-02-25",
+    "details": "VDP-LISTONS",
+    "debit": "6,10 ",
+    "credit": null,
+    "balance": "4812,05 "
+  },
+  {
+    "date": "2014-02-26",
+    "details": "VDA-ULSTER BANK",
+    "debit": "20,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-26",
+    "details": "VDP-HALFORDS LTD",
+    "debit": "25,99 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-26",
+    "details": "VDP-RYANS HOTEL",
+    "debit": "55,05 ",
+    "credit": null,
+    "balance": "4711,01 "
+  },
+  {
+    "date": "2014-02-27",
+    "details": "GTSDSCT140580KEC",
+    "debit": null,
+    "credit": "3658,97 ",
+    "balance": null
+  },
+  {
+    "date": "2014-02-27",
+    "details": "VDA-ULSTER BANK",
+    "debit": "20,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-27",
+    "details": "VDP-APPLE ITUNES S",
+    "debit": "0,89 ",
+    "credit": null,
+    "balance": "8349,09 "
+  },
+  {
+    "date": "2014-02-28",
+    "details": "VDA-BANK OF IRELAN",
+    "debit": "20,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-28",
+    "details": "VDA-ULSTER BANK",
+    "debit": "40,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-28",
+    "details": "VDP-CROSSINGS MOTO",
+    "debit": "170,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-02-28",
+    "details": "NEIL OKEEFFE",
+    "debit": "1550,00 ",
+    "credit": null,
+    "balance": "6569,09 "
+  },
+  {
+    "date": "2014-03-03",
+    "details": "VDA-ULSTER BANK",
+    "debit": "80,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-03",
+    "details": "VDP-EUROSPAR BARRO",
+    "debit": "11,44 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-03",
+    "details": "VDP-GREAT GAS PARN",
+    "debit": "20,24 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-03",
+    "details": "VDP-HEATONS",
+    "debit": "29,80 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-03",
+    "details": "GTSOSCT1406201SR",
+    "debit": "875,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-03",
+    "details": "GTSSDDP1405208RR",
+    "debit": "310,74 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-03",
+    "details": "GTSSDDP140572DX3",
+    "debit": "46,90 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-04",
+    "details": "VDP-DUBLIN T2 RETA",
+    "debit": "12,00 ",
+    "credit": null,
+    "balance": "5182,97 "
+  },
+  {
+    "date": "2014-03-06",
+    "details": "GTSOSCT1406500S6",
+    "debit": "250,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-07",
+    "details": "GTSDSCT140652W3P",
+    "debit": null,
+    "credit": "500,00 ",
+    "balance": null
+  },
+  {
+    "date": "2014-03-10",
+    "details": "VDA-ULSTER BANK",
+    "debit": "20,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-10",
+    "details": "VDP-BYRNE'S",
+    "debit": "25,04 ",
+    "credit": null,
+    "balance": "5387,93 "
+  },
+  {
+    "date": "2014-03-13",
+    "details": "VDP-PAYPAL *SPOTIF",
+    "debit": "4,99 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-13",
+    "details": "GTSSDDM140690X68",
+    "debit": "5,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-14",
+    "details": "VDP-WOODIES DIY",
+    "debit": "29,99 ",
+    "credit": null,
+    "balance": "5347,95 "
+  },
+  {
+    "date": "2014-03-18",
+    "details": "VDP-FLYEFIT GROUP",
+    "debit": "10,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-18",
+    "details": "GTSSDDM140711VAI",
+    "debit": "47,08 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-18",
+    "details": "GTSSDDM140711WF5",
+    "debit": "63,98 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-18",
+    "details": "OP/eFlow Payment",
+    "debit": "45,83 ",
+    "credit": null,
+    "balance": "5181,06 "
+  },
+  {
+    "date": "2014-03-21",
+    "details": "VDA-ULSTER BANK",
+    "debit": "20,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-21",
+    "details": "VDP-TESCO STORE 35",
+    "debit": "14,01 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-21",
+    "details": "GTSSDDP1407017OH",
+    "debit": "45,69 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-24",
+    "details": "VDP-BBC HAIRDRESSI",
+    "debit": "35,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-24",
+    "details": "VDP-BROWN THOMAS",
+    "debit": "60,70 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-24",
+    "details": "VDP-EUROSPAR BARRO",
+    "debit": "12,29 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-24",
+    "details": "VDP-LITTLE SPORT",
+    "debit": "30,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-24",
+    "details": "VDP-MAXOL SERVICE",
+    "debit": "20,11 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-24",
+    "details": "VDP-RAMBLERS WAY L",
+    "debit": "69,95 ",
+    "credit": null,
+    "balance": "4873,31 "
+  },
+  {
+    "date": "2014-03-25",
+    "details": "VDP-BARROW STREET",
+    "debit": "33,52 ",
+    "credit": null,
+    "balance": "4839,79 "
+  },
+  {
+    "date": "2014-03-25",
+    "details": "VDP-EUROSPAR BARRO",
+    "debit": "10,09 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-25",
+    "details": "VDP-HANOVER MEDICA",
+    "debit": "60,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-25",
+    "details": "VDP-LIDL RANELAGH",
+    "debit": "42,59 ",
+    "credit": null,
+    "balance": "4727,11 "
+  },
+  {
+    "date": "2014-03-26",
+    "details": "VDA-ULSTER BANK",
+    "debit": "20,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-26",
+    "details": "VDP-BARROW STREET",
+    "debit": "33,52 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-26",
+    "details": "VDP-EUROSPAR BARRO",
+    "debit": "10,09 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-26",
+    "details": "VDP-HANOVER MEDICA",
+    "debit": "60,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-26",
+    "details": "VDP-JUMP JUICE BAR",
+    "debit": "3,95 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-26",
+    "details": "VDP-LIDL RANELAGH",
+    "debit": "42,59 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-26",
+    "details": "VDP-R.F.G IRELAND",
+    "debit": "5,95 ",
+    "credit": null,
+    "balance": "4551,01 "
+  },
+  {
+    "date": "2014-03-27",
+    "details": "REV-BARROW STREET",
+    "debit": null,
+    "credit": "33,52 ",
+    "balance": null
+  },
+  {
+    "date": "2014-03-27",
+    "details": "REV-EUROSPAR BARRO",
+    "debit": null,
+    "credit": "10,09 ",
+    "balance": null
+  },
+  {
+    "date": "2014-03-27",
+    "details": "REV-HANOVER MEDICA",
+    "debit": null,
+    "credit": "60,00 ",
+    "balance": null
+  },
+  {
+    "date": "2014-03-27",
+    "details": "REV-LIDL RANELAGH",
+    "debit": null,
+    "credit": "42,59 ",
+    "balance": null
+  },
+  {
+    "date": "2014-03-27",
+    "details": "VDP-ODEON",
+    "debit": "21,50 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-27",
+    "details": "VDP-ODEON CINEMA",
+    "debit": "34,80 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-27",
+    "details": "VDP-SPAR CORRIB OI",
+    "debit": "19,02 ",
+    "credit": null,
+    "balance": "4621,89 "
+  },
+  {
+    "date": "2014-03-28",
+    "details": "GTSDSCT140870SFD",
+    "debit": null,
+    "credit": "3658,97 ",
+    "balance": null
+  },
+  {
+    "date": "2014-03-28",
+    "details": "VDA-ULSTER BANK",
+    "debit": "20,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-28",
+    "details": "NEIL OKEEFFE",
+    "debit": "1550,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-28",
+    "details": "FEE-QTR TO 28FEB14",
+    "debit": "48,60 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-31",
+    "details": "ATM DUNNES BLANCH1",
+    "debit": "50,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-31",
+    "details": "ATM TALLAGHT 2",
+    "debit": "20,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-31",
+    "details": "VDP-DEBENHAMS",
+    "debit": "43,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-31",
+    "details": "VDP-EUROSPAR BARRO",
+    "debit": "10,83 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-31",
+    "details": "VDP-EUROSPAR BARRO",
+    "debit": "12,80 ",
+    "credit": null,
+    "balance": "6525,63 "
+  },
+  {
+    "date": "2014-03-31",
+    "details": "VDP-EUROSPAR BARRO",
+    "debit": "18,22 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-31",
+    "details": "VDP-EUROSPAR BARRO",
+    "debit": "23,18 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-31",
+    "details": "VDP-MAO RESTAURANT",
+    "debit": "62,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-31",
+    "details": "VDP-SURMA",
+    "debit": "12,00 ",
+    "credit": null,
+    "balance": null
+  },
+  {
+    "date": "2014-03-31",
+    "details": "GTSOSCT1409001CJ",
+    "debit": "875,00 ",
+    "credit": null,
+    "balance": null
+  }
+]
