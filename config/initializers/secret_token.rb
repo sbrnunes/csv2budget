@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Personalbudget::Application.config.secret_key_base = '081d104bef64f54e4d35c80814a0169660c8d688cf7c6c5e4ae6b51502cf95d2c136cc7f8fd503fbaf38b4c205fe54ac72bf72d6c03f550cfbfb9faa472d50c8'
+Csv2Budget::Application.config.secret_key_base = '081d104bef64f54e4d35c80814a0169660c8d688cf7c6c5e4ae6b51502cf95d2c136cc7f8fd503fbaf38b4c205fe54ac72bf72d6c03f550cfbfb9faa472d50c8'

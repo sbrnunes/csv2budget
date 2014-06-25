@@ -1,4 +1,4 @@
-Personalbudget::Application.routes.draw do
+Csv2Budget::Application.routes.draw do
 
   root 'homepage#index'
 

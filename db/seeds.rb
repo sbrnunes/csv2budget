@@ -5,3 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Category.delete_all
+Category.create({:name => 'Incomes', :labels => [{:name => 'DIMENSION DATA'},{:name => 'EXPENSES'}]})
+Category.create({:name => 'Expenses', :labels => [{:name => 'VDA'},{:name => 'VDP'},{:name => 'VODAFONE'}]})
+Category.create({:name => 'Telecommunications', :labels => [{:name => 'VODAFONE'}]})

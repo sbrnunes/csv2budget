@@ -2,4 +2,4 @@
 require File.expand_path('../application', __FILE__)
 
 # Initialize the Rails application.
-Personalbudget::Application.initialize!
+Csv2Budget::Application.initialize!

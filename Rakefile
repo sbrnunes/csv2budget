@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Personalbudget::Application.load_tasks
+Csv2Budget::Application.load_tasks

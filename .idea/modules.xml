@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/personalbudget.iml" filepath="$PROJECT_DIR$/.idea/personalbudget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/csv2budget.iml" filepath="$PROJECT_DIR$/.idea/csv2budget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/csv2budget.iml" filepath="$PROJECT_DIR$/.idea/csv2budget.iml" />
     </modules>
   </component>
 </project>

@@ -2,6 +2,7 @@ require 'fileutils'
 require 'csv'
 require 'json'
 require 'Date'
+require 'digest/md5'
 
 class HomepageController < ApplicationController
 
@@ -20,28 +21,24 @@ class HomepageController < ApplicationController
     consolidate(rows)
     validate(rows)
 
-    labels = find_all_labels
+    # fetch the categories catalog
+    categories = Category.all
 
-    json_data = rows.select {|row| !(row[2].nil? and row[3].nil?) }.map do |row|
-      {
-          :date => Date.parse(row[0]).strftime('%Y-%m-%d'),
-          :description => row[1],
-          :debit => row[2],
-          :credit => row[3],
-          :labels => labels.select { |label| label[:applied_to].any? { |applied_to| row[1].include? applied_to[:statement_fragment]} }.
-              map { |label| label[:name] }
-      }
-    end
+    # translate each csv row to a statement with labels applied
+    statements = Statement.create_from_csv_with_labels(rows, categories)
+
+    # save the document
+    CsvDocument.save_document(Time.now, Digest::MD5.hexdigest(statements.map{ |statement| statement.data }.to_s))
 
     directory = 'public/data'
 
     # create the file path
-    path = File.join(directory, 'test_json.txt')
+    path = File.join(directory, 'test_json_' + Time.now.strftime('%Y%m%d%H%M%S') + '.txt')
 
     FileUtils.mkpath File.dirname(path)
 
     # write the file
-    File.open(path, 'wb') { |f| f.write(JSON.pretty_generate(json_data)) }
+    File.open(path, 'wb') { |f| f.write(JSON.pretty_generate(statements.as_json)) }
 
     redirect_to(:back, flash: {success: 'File has been uploaded successfuly'})
   end
@@ -64,21 +61,6 @@ class HomepageController < ApplicationController
       assert_date(row[0], 'The following statement does not contain a valid date: ' + row.to_hash.to_s)
       assert_description(row[1], 'The following statement does not contain a description field: ' + row.to_hash.to_s)
     end
-  end
-
-  def find_all_labels
-    [{
-         name: "Incomes",
-         applied_to: [{statement_fragment: "DIMENSION DATA"},{statement_fragment: "EXPENSES"}]
-     },
-     {
-         name: "Expenses",
-         applied_to: [{statement_fragment: "VDA"},{statement_fragment: "VDP"}]
-     },
-     {
-         name: "Vodafone",
-         applied_to: [{statement_fragment: "VODAFONE"},{statement_fragment: "VDA"}]
-     }]
   end
 
 end

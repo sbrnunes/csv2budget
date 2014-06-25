@@ -45,3 +45,6 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'haml'
+
+gem 'mongoid', '~> 4.0.0'
+gem 'bson_ext'
