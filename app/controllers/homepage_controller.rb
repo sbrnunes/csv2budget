@@ -30,16 +30,6 @@ class HomepageController < ApplicationController
     # save the document
     CsvDocument.save_document(Time.now, Digest::MD5.hexdigest(statements.map{ |statement| statement.data }.to_s))
 
-    directory = 'public/data'
-
-    # create the file path
-    path = File.join(directory, 'test_json_' + Time.now.strftime('%Y%m%d%H%M%S') + '.txt')
-
-    FileUtils.mkpath File.dirname(path)
-
-    # write the file
-    File.open(path, 'wb') { |f| f.write(JSON.pretty_generate(statements.as_json)) }
-
     redirect_to(:back, flash: {success: 'File has been uploaded successfuly'})
   end
 
